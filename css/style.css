@@ -1,9 +1,5 @@
 /* Utility */
 *{
-    /* font-family: 'Mansalva', cursive;
-    font-family: 'Poiret One', cursive;
-    font-family: 'Livvic', sans-serif; */
-
     font-family: 'Quicksand', sans-serif;
 }
 body{
@@ -12,9 +8,6 @@ body{
 }
 .contain{
     margin: 0 10%;
-}
-.center{
-    text-align: center;
 }
 /* End */
 
@@ -75,6 +68,11 @@ article.cv section.contain{
     width: auto;
     box-shadow: 1px 1px 5px #4E4E4E;
     margin-top: 20px;
+}
+article.cv p{
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
 }
 article.cv div.ket{
     padding-top: 80px;
@@ -175,3 +173,10 @@ footer p{
     clear: both;
 }
 /* End */
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    article.cv p{
+        font-size: 16px;
+    }
