@@ -1,15 +1,17 @@
 /* Utility */
 *{
-    font-family: 'Mansalva', cursive;
+    /* font-family: 'Mansalva', cursive;
     font-family: 'Poiret One', cursive;
-    font-family: 'Livvic', sans-serif;
+    font-family: 'Livvic', sans-serif; */
+
+    font-family: 'Quicksand', sans-serif;
 }
 body{
     margin: 0;
     padding: 0;
 }
 .contain{
-    margin: 0 12%;
+    margin: 0 10%;
 }
 .center{
     text-align: center;
@@ -42,6 +44,7 @@ article.profil section h1{
     font-weight: 800;
     font-size: 30px;
     padding-top: 20px;
+    letter-spacing: 1px;
 }
 article.profil section p{
     font-weight: bold;
@@ -107,6 +110,9 @@ article.cv div.ket button:hover{
 /* End */
 
 /* Experience */
+article.experience{
+    padding: 0 20px;
+}
 article.experience h1{
     text-transform: uppercase;
     font-style: normal;
@@ -117,22 +123,13 @@ article.experience h1{
 article.experience .card{
     background: #fff;
     height: auto;
-    width: 45%;
     transform:rotate(2deg) translateX(0%);
     border-radius: 7px;
     box-shadow: 1px 1px 5px #000;
-    margin-top: 50px;
     clear: both;
-}
-article.experience .card2{
-    margin-top: 90px;
 }
 .back{
     transform:rotate(-2deg);
-}
-article.experience .kanan{
-    float: right; 
-    margin-top: -200px
 }
 article.experience .header{
     background: #4E4E4E;
@@ -160,13 +157,16 @@ article.experience .body p{
 article.experience .body p.headerCard{
     font-weight: 900;
 }
+article.experience .col-lg{
+    margin-bottom: 30px;
+}
 /* End */
 
 /* Footer */
 footer{
     background: #4E4E4E;
     height: 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     box-shadow: 1px 1px 10px #000;
 }
 footer p{
